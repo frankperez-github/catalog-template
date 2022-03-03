@@ -1,0 +1,47 @@
+main{
+    margin: 2% 1% 2% 10%;
+}
+.ProductCard{
+    border: solid;
+    border-width: 1.5px;
+    border-color: rgb(181, 181, 238);
+    width: 14%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 1%;
+    margin-right: 2%;
+}
+.InfoProduct{
+    text-align: left;
+    padding-bottom: 5%;
+}
+.InfoProduct p{
+    line-height: 60%;
+}
+.ProductName{
+    border-top-left-radius: 18px;
+    background-color: rgb(43, 43, 250);
+    font-weight: 100;
+    color: azure;
+    padding: 1% 0;
+}
+.ProductImage{
+    width: 100%;
+}
+.BuyButton{
+    cursor: pointer;
+    color: azure;
+    font-size: 20px;
+    border: none;
+    width: 70%;
+    padding: 4% 5%;
+    background-color: rgb(44, 128, 255);
+}
+.BuyButton:hover{
+    background-color: rgb(18, 90, 197);
+}
+.Catalogue{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
